@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/Formulario.css">
+</head>
+<body>
+
+ <!--    UNIVERSIDAD TECNOLOGICA METROPOLITANA
+        APLICACIONES WEB
+        JOEL IVAN CHUC UC
+        ACTIVIDAD 4
+        CYNTHIA VERDE CORTAZAR
+        CUATRIMESTRE 3
+        PARCIAL 1
+        GRUPO: D
+    -->
+    <header>
+        <h2 id="form">
+            <i><b>Formulario.</b></i>
+            </h2>
+    </header>
+        <main>
+            <form>
+
+                <section>
+                    <label for="name"><b>Nombres:</b></label>
+                    <input type="text" name="name" id="name"
+                    minlength="5" maxlength="15" required placeholder="Nombre">
+                    <br><br>
+
+                    <label for="lastname"><b>Apellidos:</b></label>
+                    <input type="text" lastname="lastname" id="lastname"
+                    minlength="5" maxlength="15" required placeholder="Apellido">
+                    <br><br>
+
+                    <label for="date"><b>Fecha de Nacimiento:</b></label>
+                    <input type="date" date="date" id="date">
+                    <br><br>
+
+                    <label for="ciudad"><b>Ciudad de Nacimiento:</b></label>
+                    <input type="text" ciudad="ciudad" id="ciudad"
+                    minlength="10" maxlength="20" required placeholder="Ciudad de Nacimiento">
+                    <br><br>
+
+                    <label for="pais"><b>Pais de Nacimiento</b></label>
+                    <select id="pais" name="pais">
+                        <option>España</option>
+                        <option>Estados Unidos</option>
+                        <option>México</option>
+                        <option>Alemania</option>
+                        <option>China</option>
+                    </select>
+                    <br><br>
+
+                    <label for="Nacionalidad"><b>Nacionalidad:</b></label>
+                    <select id="nacionalidad" name="nacionalidad">
+                        <option>Español</option>
+                        <option>Americano</option>
+                        <option>Mexicano</option>
+                        <option>Aleman</option>
+                        <option>Chino</option>
+                    </select>
+                    <br><br>
+
+                    <label for="Numero"><b>Numero de Pasaporte:</b></label>
+                    <input type="text" pasaporte="pasaporte" id="pasaporte"
+                    maxlength="15" required placeholder="Numero de Pasaporte">
+                    <br><br>
+
+                    <label for="paispas"><b>Pais donden ha sacado su pasaporte:</b></label>
+                    <select id="pasipas" name="paispas">
+                        <option>España</option>
+                        <option>Estados Unidos</option>
+                        <option>México</option>
+                        <option>Alemania</option>
+                        <option>China</option>
+                    </select>
+                    <br><br>
+                    <label for="fechapas"><b>Fecha de emision del pasaporte:</b></label>
+                    <input type="date" fechapas="fechapas" id="fechapas">
+                    <br><br>
+                    <label for="fechaven"><b>Fecha de vencimiento del pasaporte:</b></label>
+                    <input type="date" fechaven="fechaven" id="fechaven">
+                </section>
+            </form>        
+        </main>
+</body>
+</html>

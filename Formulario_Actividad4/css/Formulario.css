@@ -1,0 +1,38 @@
+#form
+{
+    text-align: center;
+}
+ header{
+    background-color: #E1B893;
+    width:1000px;
+    height: 100px;
+    padding: 10px;
+}
+main{
+    background-color: #E1B893;
+    width: 1000px;
+    height:500px;
+    padding: 10px;
+}
+input{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 140px;
+}
+option, select {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 3px #ccc;
+    left: 140px;
+    width: 200px;
+    padding: 5px;
+    resize: vertical;
+}
+label{
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 4px;
+    left: 130px;
+    padding: 5px;
+}
